@@ -1,0 +1,96 @@
+logo
+
+header.header .header_video {
+    border: 1px solid rgb(6, 30, 55);
+    border-radius: 6px;
+    box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.15);
+    height: 322px;
+    margin-left: 105px;
+    margin-top: 150px;
+}
+
+header.header .header_video iframe {
+    border-radius: 5px;
+    height: 320px;
+    width: 100%;
+}
+
+
+section.contact_area {
+    background-color: #fafafa;
+}
+section.contact_area .text>p {
+    color: rgb(6, 30, 55);
+}
+section.contact_area>.text {
+    margin: 5px auto 50px;
+    max-width: 555px;
+    text-align: center;
+    padding-top: 20px
+}
+section.contact_area .form_area {
+    margin: 0 auto 95px;
+    max-width: 600px;
+}
+section.contact_area .form_area .input_area input {
+    border: 1px solid #061e37;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    width: 278px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(6, 30, 55);
+}
+section.contact_area .form_area textarea:focus,
+section.contact_area .form_area .input_area input:focus { 
+    background-color: #ddd;
+    outline: none;
+}
+section.contact_area .form_area .input_area input:nth-child(odd) {
+    margin-right: 20px;
+}
+section.contact_area .form_area .input_area input:nth-child(even) {
+    margin-left: -2px;
+}
+section.contact_area .form_area textarea {
+    width: 100%;
+    border: 1px solid #061e37;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    height: 150px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #061e37;
+}
+section.contact_area .form_area label p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: rgb(6, 30, 55);
+}
+section.contact_area .form_area input[type="checkbox"] {
+    margin-right: 10px;
+}
+section.contact_area .form_area input[type="submit"] {
+    background: #1de9b6 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 50px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+section>.text {
+    margin: 100px auto;
+    max-width: 555px;
+    text-align: center;
+}
+
